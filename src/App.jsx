@@ -31,7 +31,7 @@ function App() {
 //       </p>
 //     </>
 //   )
-    return (<)
+    return (<HelloWorldCom/>)
 }
 
 

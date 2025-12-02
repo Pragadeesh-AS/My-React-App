@@ -1,7 +1,10 @@
 import React from "react";
+import { HelloWorldStyle } from "./hello-world-style";
 const HelloWorldCom = () => {
    return(
-    <h1>Hello world</h1>
+      <HelloWorldStyle>
+    <h1 className="Hello">Sri Eshwar</h1>
+    </HelloWorldStyle>
    )
 };
 export default HelloWorldCom;
