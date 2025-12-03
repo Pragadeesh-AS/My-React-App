@@ -1,16 +1,16 @@
+
 import React from "react";
-import { HelloWorldStyle } from "./hello-world-style";
-const HelloWorldCom = () => {
+import { FlexStyle } from "./flex-box-style";
+const FlexBoxComponent = () => {
   return (
-    <HelloWorldStyle>
-      {/* <h1 className="element">Sri eshwar</h1> */}
+    <FlexStyle>
       <div className="parent">
         <div className="square__child"></div>
         <div className="square__child"></div>
         <div className="square__child"></div>
         <div className="square__child"></div>
       </div>
-    </HelloWorldStyle>
+    </FlexStyle>
   );
 };
-export default HelloWorldCom;
+export default FlexBoxComponent;
