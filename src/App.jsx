@@ -5,6 +5,9 @@ import LeadersTomorrowComponent from "./leaders-tomorrow/leaders-tomorrow-compon
 import ExcellenceComponent from "./excellence/excellence-component";
 import PositionComponent from "./position/position-component";
 import TrustedComponent from "./trusted/trusted-component";
+import GetInTouchComponent from "./get-in-touch/get-in-touch-component";
+import ImpactComponent from "./impact/impact-component";
+import OurPromiseComponent from "./our-promise/our-promise-component";
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
       {/* <LeadersTomorrowComponent /> */}
       {/* <ExcellenceComponent /> */}
       {/* <PositionComponent/> */}
-      <TrustedComponent/>
+      {/* <TrustedComponent/> */}
+      {/* <GetInTouchComponent/> */}
+      <ImpactComponent/>
+      <OurPromiseComponent/>
     </div>
   );
 }

@@ -15,8 +15,8 @@ const GetInTouchComponent=()=>{
         </div>
 
         <div className="right">
-          <img
-            src="https://aptitudeguru.in/static/media/get-in-touch.8c521c235d4bd711343c.jpg"
+          <img 
+            src="https://www.aptitudeguruhem.com/static/media/get-in-touch.8c521c235d4bd711343c.jpg"
             alt="contact"
           />
         </div>

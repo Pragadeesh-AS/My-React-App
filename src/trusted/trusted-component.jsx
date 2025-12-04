@@ -2,14 +2,15 @@ import React from "react";
 import {TrustedStyle} from "./trusted-style";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBuildingColumns } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+
  const TrustedComponent=()=>{
     return (
        <TrustedStyle>
             <h1>Trusted By</h1>
       <div className="parent">
         <div className="child">
-          <FontAwesomeIcon icon={faBuildingColumns} />
+          <FontAwesomeIcon icon={faLaptopCode} />
           <span className="numbers">100+</span>
           <br></br>
           <span className="details">Colleges</span>

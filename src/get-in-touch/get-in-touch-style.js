@@ -45,8 +45,8 @@ export const GetInTouchStyle=styled.div`
   }
 
   .right img {
-    width: 450px;
-    height: auto;
+            width: 340px;
+        height: 340px;
   }
 
   /* RESPONSIVE */
@@ -57,12 +57,18 @@ export const GetInTouchStyle=styled.div`
     }
 
     .right img {
-      width: 300px;
+     width: 300px;
+    height: 300px;
+    z-index: 100;
+    position: relative;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     }
 
     .left h1 {
       font-size: 40px;
     }
   }
-
+  
 `; 
